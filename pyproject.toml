@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "\u001b[C\u001b[C\u001b[C\u001b[C"
+version = "0.1.0"
+description = "Python package that eases the pain of concatenating Pandas categoricals!"
+authors = ["Rachel Xu <rachelxu.sauderfinance@gmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
